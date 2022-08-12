@@ -11,4 +11,6 @@ const generateRandomColor = () => {
 
 button.addEventListener('click', () => {
   body.style.backgroundColor = generateRandomColor();
+  button.style.backgroundColor = generateRandomColor();
+  button.style.color = generateRandomColor();
 });
