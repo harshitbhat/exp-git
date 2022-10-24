@@ -20,3 +20,5 @@ button.addEventListener('click', () => {
 const addTwoNumbers = (a, b) => a + b;
 
 const sumArray = (arr) => arr.reduce((acc, curr) => acc + curr, 0);
+
+const findMin = (arr) => Math.min(...arr);
