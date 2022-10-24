@@ -14,3 +14,7 @@ button.addEventListener('click', () => {
   button.style.backgroundColor = generateRandomColor();
   button.style.color = generateRandomColor();
 });
+
+// writing random JS functions just for the commits
+
+const addTwoNumbers = (a, b) => a + b;
