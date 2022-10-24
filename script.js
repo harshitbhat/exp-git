@@ -18,3 +18,5 @@ button.addEventListener('click', () => {
 // writing random JS functions just for the commits
 
 const addTwoNumbers = (a, b) => a + b;
+
+const sumArray = (arr) => arr.reduce((acc, curr) => acc + curr, 0);
